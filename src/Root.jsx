@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import logo from '../src/assets/logo.png';
 
 const Root = () => {
     return (
@@ -22,7 +23,7 @@ const Root = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                  <img className="w-[40%]" src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
