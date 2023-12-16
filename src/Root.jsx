@@ -2,10 +2,11 @@ import { Outlet } from "react-router-dom";
 import logo from '../src/assets/logo.png';
 
 const Root = () => {
+
     return (
         <div>
             {/* Navbar */}
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-blue-100 h-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +24,7 @@ const Root = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                  <img className="w-[40%]" src={logo} alt="" />
+                    <img className="w-[40%]" src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -46,7 +47,7 @@ const Root = () => {
             </div>
 
             {/* Outlet */}
-            <div className="min-h-screen"><Outlet /></div>
+            <div className=""><Outlet /></div>
 
             {/* footer */}
             <footer className="">
