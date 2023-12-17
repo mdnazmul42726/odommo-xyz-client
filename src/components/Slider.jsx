@@ -11,21 +11,6 @@ const Slider = () => {
                     <div>
                         <img className="" src={s2} />
                     </div>
-                    <div>
-                        <img src={s1} />
-                    </div>
-                    <div>
-                        <img src={s1} />
-                    </div>
-                    <div>
-                        <img src={s1} />
-                    </div>
-                    <div>
-                        <img src={s1} />
-                    </div>
-                    <div>
-                        <img src={s1} />
-                    </div>
                 </Carousel>
             </div>
         </div>
