@@ -4,7 +4,12 @@ import webService from '../assets/websiteservice.svg';
 import corporateWebsite from '../assets/corporatewebsite.svg';
 import businessWebsite from '../assets/businesswebsite.svg';
 import eCommerceWebsite from '../assets/ecommercewebsite.svg';
+import emailService from '../assets/emailservice.svg';
+import enterpriseemail from '../assets/enterpriseemail.png';
+import zimbramailserver from '../assets/zimbramailserver.png';
+import gsuite from '../assets/gsuite.png';
 import cmsWebsite from '../assets/cmswebsite.svg';
+import officeLicense from '../assets/office-165-license.png';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -62,13 +67,13 @@ const Home = () => {
             </div >
 
             {/* Web Sevise */}
-            <div className="md:flex my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
+            <div className="md:flex mt-20 md:my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
                 <div className="md:flex items-center gap-4">
                     <div className="md:w-[40%]">
                         <img src={webService} alt="" />
                     </div>
                     <div className="md:w-[60%]">
-                        <h1 className="text-4xl font-bold"><span className="text-blue-500">Website Design</span> For Your Business</h1>
+                        <h1 className="text-4xl font-bold uppercase"><span className="text-blue-500">Website Design</span> For Your Business</h1>
                         <p className="my-5 text-xl opacity-75">Transform your ideas into a stunning online presence with our expert web development services. We create user-friendly and visually appealing websites that are optimized for performance and functionality, providing your business with a strong online presence.
                             <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
                         <div className="">
@@ -137,24 +142,24 @@ const Home = () => {
             </div>
 
             {/* Email service */}
-            <div className="md:flex my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
-                <div className="md:flex items-center gap-4">
-                    <div className="md:w-[40%]">
-                        <img src={webService} alt="" />
-                    </div>
+            <div className=" md:flex  md:my-36 px-3 md:px-10 py-10 justify-center">
+                <div className=" md:flex items-center gap-4">
                     <div className="md:w-[60%]">
-                        <h1 className="text-4xl font-bold"><span className="text-blue-500">Website Design</span> For Your Business</h1>
-                        <p className="my-5 text-xl opacity-75">Transform your ideas into a stunning online presence with our expert web development services. We create user-friendly and visually appealing websites that are optimized for performance and functionality, providing your business with a strong online presence.
-                            <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
+                        <h1 className="text-4xl font-bold uppercase"><span className="text-[#FF4949]">Business Email</span> in Bangladesh</h1>
+                        <p className="my-5 text-xl opacity-75">Odommo XYZ brings the most advanced Email Solutions to Companies and Enterprises in Bangladesh. Your Emails can be hosted in Bangladesh or the USA. It's a Low-cost Email Solution for your company. Buy Email Hosting in Bangladesh from Alpha Net. Low price, various payment options, and volume discount available.
+                            <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
                         <div className="">
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            <div className="md:w-[40%] flex md:hidden">
+                                <img src={emailService} alt="" />
+                            </div>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mx-auto">
 
                                 {/* Corporate */}
                                 <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
-                                    <div className="pt-5 bg-blue-500 justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Corporate</h3>
+                                    <div className="pt-5 bg-[#FF4949] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Business email</h3>
                                         <div className="bg-white">
-                                            <img src={corporateWebsite} alt="" />
+                                            <img src={enterpriseemail} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -165,10 +170,10 @@ const Home = () => {
 
                                 {/* Business */}
                                 <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
-                                    <div className="pt-5 bg-blue-500 justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Business</h3>
+                                    <div className="pt-5 bg-[#FF4949] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Zimbra Server</h3>
                                         <div className="bg-white">
-                                            <img src={businessWebsite} alt="" />
+                                            <img src={zimbramailserver} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -179,10 +184,10 @@ const Home = () => {
 
                                 {/* eCommerce */}
                                 <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
-                                    <div className="pt-5 bg-blue-500 justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">eCommerce</h3>
+                                    <div className="pt-5 bg-[#FF4949] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> G Workspace</h3>
                                         <div className="bg-white">
-                                            <img src={eCommerceWebsite} alt="" />
+                                            <img src={gsuite} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -193,10 +198,10 @@ const Home = () => {
 
                                 {/* CMS */}
                                 <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
-                                    <div className="pt-5 bg-blue-500 justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">CMS</h3>
-                                        <div className="bg-white">
-                                            <img src={cmsWebsite} alt="" />
+                                    <div className="pt-5 bg-[#FF4949] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Office 365</h3>
+                                        <div className="bg-white flex justify-center">
+                                            <img className="w-[47%]" src={officeLicense} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -206,6 +211,9 @@ const Home = () => {
                                 </div></Link>
                             </div>
                         </div>
+                    </div>
+                    <div className="md:w-[40%] hidden md:flex">
+                        <img src={emailService} alt="" />
                     </div>
                 </div>
 
