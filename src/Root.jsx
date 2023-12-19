@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import logo from '../src/assets/logo.png';
 import logo2 from '../src/assets/icon[2176].png';
 
@@ -29,9 +29,8 @@ const Root = () => {
                 </div>
                 <div className="navbar-end">
                     <ul className="flex gap-4">
-                        <li>11</li>
-                        <li>11</li>
-                        <li>11</li>
+                        <NavLink>Home</NavLink>
+                        <NavLink to={'/contact'}>Contact</NavLink>
                     </ul>
                 </div>
             </div>
@@ -70,7 +69,7 @@ const Root = () => {
                             </label>
                             <div className="join">
                                 <input type="text" placeholder="username@site.com" className="input input-bordered join-item" />
-                                <button className="btn btn-primary join-item">Subscribe</button>
+                                <button className="btn bg-blue-500 hover:bg-blue-600 text-white join-item">Subscribe</button>
                             </div>
                         </fieldset>
                     </form>

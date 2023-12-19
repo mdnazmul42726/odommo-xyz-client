@@ -37,13 +37,10 @@ const Home = () => {
                                 <h1 className="text-4xl font-bold uppercase"><span className="text-blue-500"> Business and IT</span> Solutions in Bangladesh</h1>
                                 <div className="mt-5 text-xl opacity-75">
                                     <p>
-                                        Welcome to Odommo, the leading provider of comprehensive IT solutions in Bangladesh. Nestled in the heart of this vibrant nation, Odommo is your dedicated partner in unlocking the full potential of technology for your business.
+                                        Welcome to Odommo XYZ!  A growing digital agency  founded in 2020. We are a specialized  web development, Android app development, graphics design, business solutions, digital marketing, UI/UX designing, and data analysis service provider in Bangladesh. Our team of experts is dedicated to helping your businesses establish a strong online presence and achieve your growth goals. With our use of the latest technologies and knowledge of recent business trends, we offer professional and creative solutions tailored to your business needs.
                                     </p>
                                     <p className="mt-2">
-                                        Founded in 2023, Odommo has been on a mission to redefine the landscape of IT services in Bangladesh. Our journey began with a vision to offer versatile and top-notch solutions, empowering businesses to thrive in the digital era. From Dhaka to every corner of the country, we`ve been instrumental in driving innovation and success.
-                                    </p>
-                                    <p className="mt-2">
-                                        At Odommo, our mission is simple yet powerful – to seamlessly integrate technology into your business DNA. We aim to be the catalyst for your growth, providing cutting-edge web and mobile development, strategic digital marketing, captivating graphic and UI/UX design, and a suite of services designed to propel your brand to new heights.
+                                        We believe in the power of technology and innovation to drive business success. With years of experience in the industry, our team of skilled professionals is committed to delivering high-quality services that exceed our client`s expectations. We understand that each business is unique, so we work closely with our clients to provide customized solutions that align with their objectives. Let`s  pave the way for your business to thrive in the digital era.
                                     </p>
                                 </div>
                                 <div />
@@ -52,13 +49,10 @@ const Home = () => {
                                     <h1 className="text-3xl font-bold"><span className="text-blue-500">ব্যবসা এবং আইটি</span> সার্ভিস এখন বাংলাদেশে</h1>
                                     <div className="text-xl opacity-75">
                                         <p className="mt-5">
-                                            বাংলাদেশে ব্যাপক আইটি সলিউশনের নেতৃস্থানীয় প্রদানকারী Odommo-এ স্বাগতম। এই প্রাণবন্ত জাতির হৃদয়ে অবস্থিত, Odommo হল আপনার ব্যবসার জন্য প্রযুক্তির পূর্ণ সম্ভাবনা আনলক করার জন্য আপনার নিবেদিত অংশীদার।
+                                            Odommo XYZ-এ স্বাগতম! ২০২০ সালে প্রতিষ্ঠিত একটি  দ্রুত বর্ধনশীল ডিজিটাল এজেন্সি। আমরা বাংলাদেশ ভিত্তিক একটি এজেন্সি যেখানে  ওয়েব ডেভেলপমেন্ট, অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্ট, গ্রাফিক্স ডিজাইন, বিজনেস সলিউশন, ডিজিটাল মার্কেটিং, UI/UX ডিজাইনিং এবং ডেটা অ্যানালাইসিস পরিষেবা প্রদানকরে থাকি। আমাদের বিশেষজ্ঞদের টিম আপনার ব্যবসার একটি শক্তিশালী অনলাইন উপস্থিতি প্রতিষ্ঠা করতে এবং আপনার ব্যবসায়িক লক্ষ্য অর্জনে সহায়তা করার জন্য নিবেদিত৷ আমারা সাম্প্রতিক প্রযুক্তি এবং সাম্প্রতিক ব্যবসায়িক ট্রেন্ড ব্যবহার করে, ক্লায়েন্টের ব্যবসার প্রয়োজন অনুসারে আমরা একটি প্রফেশনাল এবং সৃজনশীল সমাধান অফার করি।
                                         </p>
                                         <p className="mt-2">
-                                            2023 সালে প্রতিষ্ঠিত, Odommo বাংলাদেশে আইটি পরিষেবার ল্যান্ডস্কেপকে নতুন করে সংজ্ঞায়িত করার লক্ষ্যে কাজ করেছে। আমাদের যাত্রা শুরু হয়েছিল বহুমুখী এবং শীর্ষস্থানীয় সমাধানগুলি অফার করার একটি দৃষ্টিভঙ্গি নিয়ে, ডিজিটাল যুগে ব্যবসাগুলিকে সমৃদ্ধ করার ক্ষমতায়ন। ঢাকা থেকে দেশের প্রতিটি কোণে, আমরা উদ্ভাবন এবং সাফল্যের ড্রাইভিং সহায়ক ভূমিকা পালন করেছি।
-                                        </p>
-                                        <p className="mt-2">
-                                            Odommo-এ, আমাদের লক্ষ্য সহজ কিন্তু শক্তিশালী - আপনার ব্যবসার DNA-তে প্রযুক্তিকে নির্বিঘ্নে সংহত করা। আমরা আপনার বৃদ্ধির জন্য অনুঘটক হওয়ার লক্ষ্য রাখি, অত্যাধুনিক ওয়েব এবং মোবাইল ডেভেলপমেন্ট, কৌশলগত ডিজিটাল মার্কেটিং, চিত্তাকর্ষক গ্রাফিক এবং UI/UX ডিজাইন এবং আপনার ব্র্যান্ডকে নতুন উচ্চতায় নিয়ে যাওয়ার জন্য ডিজাইন করা পরিষেবাগুলির একটি স্যুট প্রদান করা।
+                                            আমরা ব্যবসায়িক সাফল্যের জন্য প্রযুক্তি এবং উদ্ভাবনের শক্তিতে বিশ্বাস করি। আমাদের দক্ষ পেশাদার টিম আপানাকে  উচ্চ-মানের পরিষেবা সরবরাহ করতে প্রতিশ্রুতিবদ্ধ যা আমাদের ক্লায়েন্টদের প্রত্যাশাকে অতিক্রম করে। আমরা বুঝি যে প্রতিটি ব্যবসা অনন্য, তাই আমরা আমাদের ক্লায়েন্টদের সাথে ঘনিষ্ঠভাবে কাজ করি যাতে কাস্টমাইজড সমাধান প্রদান করা যায় যা তাদের উদ্দেশ্যের সাথে সামঞ্জস্যপূর্ণ হয়। আসুন ডিজিটাল যুগে আপনার ব্যবসার উন্নতির পথ প্রশস্ত করি।
                                         </p>
                                     </div>
                                 </div>}
@@ -75,7 +69,83 @@ const Home = () => {
                     </div>
                     <div className="md:w-[60%]">
                         <h1 className="text-4xl font-bold"><span className="text-blue-500">Website Design</span> For Your Business</h1>
-                        <p className="my-5 text-xl">Let us help you establish a Website. Odommo`s expert Web design team will study your requirements and design a Website that turns your concept into reality. Our prices are reasonable, and quality is guaranteed. <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
+                        <p className="my-5 text-xl opacity-75">Transform your ideas into a stunning online presence with our expert web development services. We create user-friendly and visually appealing websites that are optimized for performance and functionality, providing your business with a strong online presence.
+                            <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
+                        <div className="">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+
+                                {/* Corporate */}
+                                <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-blue-500 justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Corporate</h3>
+                                        <div className="bg-white">
+                                            <img src={corporateWebsite} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* Business */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-blue-500 justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Business</h3>
+                                        <div className="bg-white">
+                                            <img src={businessWebsite} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* eCommerce */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-blue-500 justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">eCommerce</h3>
+                                        <div className="bg-white">
+                                            <img src={eCommerceWebsite} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* CMS */}
+                                <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-blue-500 justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">CMS</h3>
+                                        <div className="bg-white">
+                                            <img src={cmsWebsite} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Email service */}
+            <div className="md:flex my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
+                <div className="md:flex items-center gap-4">
+                    <div className="md:w-[40%]">
+                        <img src={webService} alt="" />
+                    </div>
+                    <div className="md:w-[60%]">
+                        <h1 className="text-4xl font-bold"><span className="text-blue-500">Website Design</span> For Your Business</h1>
+                        <p className="my-5 text-xl opacity-75">Transform your ideas into a stunning online presence with our expert web development services. We create user-friendly and visually appealing websites that are optimized for performance and functionality, providing your business with a strong online presence.
+                            <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
                         <div className="">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
 
