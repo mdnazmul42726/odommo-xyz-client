@@ -13,9 +13,12 @@ import cloudstorage from '../assets/cloudstorage.svg';
 import nonmasking from '../assets/nonmasking.svg';
 import smsmarketing from '../assets/smsmarketing.svg';
 import cloudservice from '../assets/cloudservice.svg';
+import iosApp from '../assets/iosapp.svg';
 import cloudhosting from '../assets/cloudhosting.svg';
 import smsservice from '../assets/smsservice.svg';
 import app from '../assets/mobile_development2.gif';
+import androidDevelopment from '../assets/android-app-development-img.svg';
+import cores from '../assets/cores.jpg';
 import cloudrdp from '../assets/cloudrdp.svg';
 import gsuite from '../assets/gsuite.png';
 import cmsWebsite from '../assets/cmswebsite.svg';
@@ -385,7 +388,7 @@ const Home = () => {
                             <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
                         <div className="">
                             <div className="md:w-[40%] flex md:hidden">
-                                <img src={cloudservice} alt="" />
+                                <img src={app} alt="" />
                             </div>
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mx-auto">
 
@@ -393,9 +396,9 @@ const Home = () => {
                                 <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
                                     <div className="pt-5 bg-[#4261A9] justify-center">
                                         <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">
-                                            Cloud Storage</h3>
-                                        <div className="bg-white">
-                                            <img src={cloudstorage} alt="" />
+                                            android app</h3>
+                                        <div className="bg-white p-2">
+                                            <img className="w-[85%]" src={androidDevelopment} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -407,9 +410,9 @@ const Home = () => {
                                 {/* Business */}
                                 <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
                                     <div className="pt-5 bg-[#4261A9] justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud Hosting</h3>
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> ios app</h3>
                                         <div className="bg-white">
-                                            <img src={cloudhosting} alt="" />
+                                            <img  className="" src={iosApp} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -421,9 +424,9 @@ const Home = () => {
                                 {/* eCommerce */}
                                 <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
                                     <div className="pt-5 bg-[#4261A9] justify-center">
-                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud RDP</h3>
-                                        <div className="bg-white">
-                                            <img src={cloudrdp} alt="" />
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> CROSS plfrm</h3>
+                                        <div className="bg-white flex justify-center">
+                                            <img className="w-[80%]" src={cores} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
