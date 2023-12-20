@@ -26,6 +26,7 @@ import officeLicense from '../assets/office-165-license.png';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import WhyChoose from "../components/WhyChoose";
 
 
 const Home = () => {
@@ -384,8 +385,9 @@ const Home = () => {
                 <div className=" md:flex items-center gap-4">
                     <div className="md:w-[60%]">
                         <h1 className="text-4xl font-bold uppercase"><span className="text-[#4261A9]"> cross platform </span> mobile application development</h1>
-                        <p className="my-5 text-xl opacity-75">The cloud is a general metaphor that is used to refer to the Internet. Initially, the Internet was seen as a distributed network and then, with the invention of the World Wide Web, as a tangle of interlinked media. As the Internet continued to grow in both size and the range of activities it encompassed, it came to be known as the cloud.
-                            <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
+                        <p className="my-5 text-xl opacity-75">Unlock the full potential of mobile technology with our customized app development solutions. We build innovative and feature-rich applications for iOS and Android platforms, ensuring seamless user experiences and helping your business reach a wider audience.
+                            {/* <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link> */}
+                            </p>
                         <div className="">
                             <div className="md:w-[40%] flex md:hidden">
                                 <img src={app} alt="" />
@@ -443,6 +445,7 @@ const Home = () => {
                 </div>
 
             </div>
+            <WhyChoose/>
         </div>
     );
 };
