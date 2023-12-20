@@ -457,9 +457,9 @@ const Home = () => {
                 <div className="h-60 bg-blue-500 bg-opacity-0 md:bg-opacity-20 w-[70%] flex flex-col justify-center items-center">
                     <h1 className="text-3xl uppercase text-white font-semibold">Need Help?</h1>
                     <p className="text-white text-center mt-2">If you need any help to select the right solution for your business, <br /> please call us at +8809606060000 within 9:00AM - 9:00PM or you can start a live chat. <br /> Odommo XYZ`s support team is available 24/7 via live chat.</p>
-                    <div className="md:flex gap-3 mt-5 space-y-2">
-                        <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <MdOutlineMail className="font-semibold" /> Mail Now</button>
-                        <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <FaPhoneAlt className="font-semibold" /> Call Now</button>
+                    <div className="flex gap-3 mt-5">
+                        <Link to={'mailto:contact@odommo.xyz'}>  <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <MdOutlineMail className="font-semibold" /> Mail Now</button></Link>
+                       <Link to={'tel:+8809606060000'}> <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <FaPhoneAlt className="font-semibold" /> Call Now</button></Link>
                     </div>
                 </div>
 
