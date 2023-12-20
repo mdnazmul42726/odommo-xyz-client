@@ -7,6 +7,7 @@ import eCommerceWebsite from '../assets/ecommercewebsite.svg';
 import emailService from '../assets/emailservice.svg';
 import enterpriseemail from '../assets/enterpriseemail.png';
 import zimbramailserver from '../assets/zimbramailserver.png';
+import sslservice from '../assets/sslservice.svg';
 import gsuite from '../assets/gsuite.png';
 import cmsWebsite from '../assets/cmswebsite.svg';
 import officeLicense from '../assets/office-165-license.png';
@@ -146,7 +147,7 @@ const Home = () => {
                 <div className=" md:flex items-center gap-4">
                     <div className="md:w-[60%]">
                         <h1 className="text-4xl font-bold uppercase"><span className="text-[#FF4949]">Business Email</span> in Bangladesh</h1>
-                        <p className="my-5 text-xl opacity-75">Odommo XYZ brings the most advanced Email Solutions to Companies and Enterprises in Bangladesh. Your Emails can be hosted in Bangladesh or the USA. It's a Low-cost Email Solution for your company. Buy Email Hosting in Bangladesh from Alpha Net. Low price, various payment options, and volume discount available.
+                        <p className="my-5 text-xl opacity-75">Odommo XYZ brings the most advanced Email Solutions to Companies and Enterprises in Bangladesh. Your Emails can be hosted in Bangladesh or the USA. It`s a Low-cost Email Solution for your company. Buy Email Hosting in Bangladesh from Alpha Net. Low price, various payment options, and volume discount available.
                             <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
                         <div className="">
                             <div className="md:w-[40%] flex md:hidden">
@@ -219,6 +220,25 @@ const Home = () => {
 
             </div>
 
+            {/* SSL Sevise */}
+            <div className="md:flex mt-20 md:my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
+                <div className="md:flex items-center gap-4">
+                    <h1 className="text-4xl font-bold uppercase md:hidden "><span className="text-[#99C33D]">SSL Certificate</span> in Bangladesh</h1>
+                    <div className="md:w-[40%]">
+                        <img src={sslservice} alt="" />
+                    </div>
+                    <div className="md:w-[60%]">
+                        <h1 className="text-4xl font-bold uppercase hidden md:block"><span className="text-[#99C33D]">SSL Certificate</span> in Bangladesh</h1>
+                        <p className="my-5 text-xl opacity-75">An SSL Certificate is essential for encrypted communication between client web browsers and your Website. SSL ensures the security of sensitive customer information when transmitted over the Internet. SSL is also necessary to integrate with Social Networking services like FaceBook, Twitter, etc. Enabling SSL may also boost your Website`s Search Engine Ranking. Increase your Website`s security, credibility & search engine ranking with an SSL Certificate from Odommo XYZ. </p>
+                        <div className="">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                <Link><button className="btn bg-[#99C33D] text-white font-bold hover:bg-transparent hover:text-black">View Details</button></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 };
