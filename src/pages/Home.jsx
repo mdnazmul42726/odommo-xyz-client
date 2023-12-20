@@ -8,6 +8,10 @@ import emailService from '../assets/emailservice.svg';
 import enterpriseemail from '../assets/enterpriseemail.png';
 import zimbramailserver from '../assets/zimbramailserver.png';
 import sslservice from '../assets/sslservice.svg';
+import cloudstorage from '../assets/cloudstorage.svg';
+import cloudservice from '../assets/cloudservice.svg';
+import cloudhosting from '../assets/cloudhosting.svg';
+import cloudrdp from '../assets/cloudrdp.svg';
 import gsuite from '../assets/gsuite.png';
 import cmsWebsite from '../assets/cmswebsite.svg';
 import officeLicense from '../assets/office-165-license.png';
@@ -235,6 +239,71 @@ const Home = () => {
                                 <Link><button className="btn bg-[#99C33D] text-white font-bold hover:bg-transparent hover:text-black">View Details</button></Link>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Cloud service */}
+            <div className=" md:flex  md:my-36 px-3 md:px-10 py-10 justify-center">
+                <div className=" md:flex items-center gap-4">
+                    <div className="md:w-[60%]">
+                        <h1 className="text-4xl font-bold uppercase"><span className="text-[#3EAFF3]">Cloud Solutions</span> in Bangladesh</h1>
+                        <p className="my-5 text-xl opacity-75">The cloud is a general metaphor that is used to refer to the Internet. Initially, the Internet was seen as a distributed network and then, with the invention of the World Wide Web, as a tangle of interlinked media. As the Internet continued to grow in both size and the range of activities it encompassed, it came to be known as the cloud.
+                            <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
+                        <div className="">
+                            <div className="md:w-[40%] flex md:hidden">
+                                <img src={cloudservice} alt="" />
+                            </div>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mx-auto">
+
+                                {/* Corporate */}
+                                <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#3EAFF3] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">
+                                            Cloud Storage</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudstorage} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* Business */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#3EAFF3] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud Hosting</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudhosting} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* eCommerce */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#3EAFF3] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud RDP</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudrdp} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="md:w-[40%] hidden md:flex">
+                        <img src={cloudservice} alt="" />
                     </div>
                 </div>
 
