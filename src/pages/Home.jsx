@@ -8,9 +8,14 @@ import emailService from '../assets/emailservice.svg';
 import enterpriseemail from '../assets/enterpriseemail.png';
 import zimbramailserver from '../assets/zimbramailserver.png';
 import sslservice from '../assets/sslservice.svg';
+import maskingsms from '../assets/maskingsms.svg';
 import cloudstorage from '../assets/cloudstorage.svg';
+import nonmasking from '../assets/nonmasking.svg';
+import smsmarketing from '../assets/smsmarketing.svg';
 import cloudservice from '../assets/cloudservice.svg';
 import cloudhosting from '../assets/cloudhosting.svg';
+import smsservice from '../assets/smsservice.svg';
+import app from '../assets/mobile_development2.gif';
 import cloudrdp from '../assets/cloudrdp.svg';
 import gsuite from '../assets/gsuite.png';
 import cmsWebsite from '../assets/cmswebsite.svg';
@@ -304,6 +309,133 @@ const Home = () => {
                     </div>
                     <div className="md:w-[40%] hidden md:flex">
                         <img src={cloudservice} alt="" />
+                    </div>
+                </div>
+
+            </div>
+
+            {/* sms Sevise */}
+            <div className="md:flex mt-20 md:my-36 px-3 md:px-10 py-10 bg-[#F5F5F5]">
+                <div className="md:flex items-center gap-4">
+                    <div className="md:w-[40%]">
+                        <img src={smsservice} alt="" />
+                    </div>
+                    <div className="md:w-[60%]">
+                        <h1 className="text-4xl font-bold uppercase"><span className="text-[#22C37D]">Bulk SMS/Masking SMS</span> in Bangladesh</h1>
+                        <p className="my-5 text-xl opacity-75">Odommo SMS is an advanced SMS service in Bangladesh with multiple services such as Bulk SMS, SMS API, OTP SMS, SMS Gateway, SMS Marketing, Masking SMS, Non-Masking, etc. Get a powerful and easy-to-use SMS API for developers. Alpha SMS also offers API Integration with Corporate applications.
+                            <Link className="text-blue-500 hover:underline">Learn More...</Link></p>
+                        <div className="">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+
+                                {/* Business */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#22C37D] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">Masking SMS</h3>
+                                        <div className="bg-white">
+                                            <img src={maskingsms} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* eCommerce */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#22C37D] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Non Masking</h3>
+                                        <div className="bg-white">
+                                            <img src={nonmasking} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* CMS */}
+                                <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#22C37D] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">SMS Marketing
+                                        </h3>
+                                        <div className="bg-white">
+                                            <img src={smsmarketing} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Cloud service */}
+            <div className=" md:flex  md:my-36 px-3 md:px-10 py-10 justify-center">
+                <div className=" md:flex items-center gap-4">
+                    <div className="md:w-[60%]">
+                        <h1 className="text-4xl font-bold uppercase"><span className="text-[#4261A9]"> cross platform </span> mobile application development</h1>
+                        <p className="my-5 text-xl opacity-75">The cloud is a general metaphor that is used to refer to the Internet. Initially, the Internet was seen as a distributed network and then, with the invention of the World Wide Web, as a tangle of interlinked media. As the Internet continued to grow in both size and the range of activities it encompassed, it came to be known as the cloud.
+                            <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link></p>
+                        <div className="">
+                            <div className="md:w-[40%] flex md:hidden">
+                                <img src={cloudservice} alt="" />
+                            </div>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mx-auto">
+
+                                {/* Corporate */}
+                                <Link> <div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#4261A9] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase">
+                                            Cloud Storage</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudstorage} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* Business */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#4261A9] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud Hosting</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudhosting} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+
+                                {/* eCommerce */}
+                                <Link><div className="w-36 shadow-md hover:scale-105 transition-all cursor-pointer">
+                                    <div className="pt-5 bg-[#4261A9] justify-center">
+                                        <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> Cloud RDP</h3>
+                                        <div className="bg-white">
+                                            <img src={cloudrdp} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
+                                        <p className="font-semibold flex justify-center">View Details</p>
+                                        <MdKeyboardDoubleArrowRight />
+                                    </div>
+                                </div></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="md:w-[40%] hidden md:flex">
+                        <img src={app} alt="" />
                     </div>
                 </div>
 
