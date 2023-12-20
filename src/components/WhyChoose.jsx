@@ -11,7 +11,7 @@ const WhyChoose = () => {
                     <div className="w-full mb-8 lg:mb-16">
                         <h2 className="mb-4 text-center text-4xl tracking-tight font-extrabold text-gray-900 uppercase">Why Choose <span className="text-blue-500">Odommo xyz</span> ?</h2>
                     </div>
-                    <div className="space-y-8 mx-10 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
+                    <div className="space-y-8 md:mx-10 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
                         <div className="border-2 p-3 border-blue-600 hover:scale-105 transition-all">
                             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
                                <FaLock className="text-2xl text-blue-500"/>

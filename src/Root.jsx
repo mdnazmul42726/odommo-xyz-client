@@ -1,13 +1,16 @@
 import { NavLink, Outlet } from "react-router-dom";
 import logo from '../src/assets/logo.png';
 import logo2 from '../src/assets/icon[2176].png';
+import ScrollToTop from "react-scroll-to-top";
+import Headroom from "react-headroom";
 
 const Root = () => {
 
     return (
         <div>
+
             {/* Navbar */}
-            <div className="navbar bg-blue-100 h-10">
+            <Headroom>  <div className="navbar bg-blue-100 h-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +36,7 @@ const Root = () => {
                         <NavLink to={'/contact'}>Contact</NavLink>
                     </ul>
                 </div>
-            </div>
+            </div></Headroom>
 
             {/* Outlet */}
             <div className=""><Outlet /></div>
@@ -87,7 +90,12 @@ const Root = () => {
                     </nav>
                 </div>
             </footer>
+            <div>
+                <div className="mr-20" />
+                <ScrollToTop smooth color="blue" />
+            </div>
         </div>
+
     );
 };
 
