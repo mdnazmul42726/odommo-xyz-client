@@ -27,6 +27,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import WhyChoose from "../components/WhyChoose";
+import Testimonial from "../components/Testimonial";
 
 
 const Home = () => {
@@ -387,7 +388,7 @@ const Home = () => {
                         <h1 className="text-4xl font-bold uppercase"><span className="text-[#4261A9]"> cross platform </span> mobile application development</h1>
                         <p className="my-5 text-xl opacity-75">Unlock the full potential of mobile technology with our customized app development solutions. We build innovative and feature-rich applications for iOS and Android platforms, ensuring seamless user experiences and helping your business reach a wider audience.
                             {/* <Link className="text-blue-500 hover:underline ml-2">Learn More...</Link> */}
-                            </p>
+                        </p>
                         <div className="">
                             <div className="md:w-[40%] flex md:hidden">
                                 <img src={app} alt="" />
@@ -414,7 +415,7 @@ const Home = () => {
                                     <div className="pt-5 bg-[#4261A9] justify-center">
                                         <h3 className=" font-bold text-white flex justify-center mb-5 uppercase"> ios app</h3>
                                         <div className="bg-white">
-                                            <img  className="" src={iosApp} alt="" />
+                                            <img className="" src={iosApp} alt="" />
                                         </div>
                                     </div>
                                     <div className="flex items-center justify-center my-4 cursor-pointer hover:underline">
@@ -445,7 +446,8 @@ const Home = () => {
                 </div>
 
             </div>
-            <WhyChoose/>
+            <WhyChoose />
+            <Testimonial />
         </div>
     );
 };
