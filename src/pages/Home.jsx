@@ -30,6 +30,7 @@ import WhyChoose from "../components/WhyChoose";
 import Testimonial from "../components/Testimonial";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import logo5 from '../assets/logo2[2404].png';
 
 
 
@@ -47,7 +48,7 @@ const Home = () => {
             <div className="w-[90%] mt-20 mx-auto">
                 <div className="md:flex items-center">
                     <div className="md:w-[40%] hidden md:flex">
-                        <img className="w-full" src={aboutLogo} alt="" />
+                        <img className="w-[1000px]" src={logo5} alt="" />
                     </div>
                     <div className="md:w-[60%]">
                         <div className="flex gap-3 mb-4">

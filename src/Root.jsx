@@ -3,6 +3,8 @@ import logo from '../src/assets/logo.png';
 import logo2 from '../src/assets/icon[2176].png';
 import ScrollToTop from "react-scroll-to-top";
 import Headroom from "react-headroom";
+import logo3 from '../src/assets/logo2-web_2406_-removebg-preview.png';
+import logo5 from '../src/assets/logo2[2404].png';
 
 const Root = () => {
 
@@ -28,9 +30,9 @@ const Root = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <img className="w-[40%]" src={logo} alt="" />
+                    <img className="w-[40%]" src={logo3} alt="" />
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end mr-5">
                     <ul className="flex gap-4">
                         <NavLink>Home</NavLink>
                         <NavLink to={'/contact'}>Contact</NavLink>
@@ -79,7 +81,7 @@ const Root = () => {
                 </div>
                 <div className="footer items-center p-4 bg-base-200 text-base-content">
                     <aside className="items-center flex justify-center md:justify-start w-full">
-                        <img className="w-[10%] hidden md:flex" src={logo2} alt="" />
+                        <img className="w-[10%] hidden md:flex" src={logo5} alt="" />
                         <p className="">Copyright © 2023 - All right reserved</p>
                     </aside>
                     <nav className="flex w-full justify-center">
